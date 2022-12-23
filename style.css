@@ -1,9 +1,13 @@
+body{
+  margin: 0;
+}
+
 #home{
 margin-top: 0;
 }
 #page1
 {
-  margin-top: 850px;
+  
 }
 
 #page2
@@ -21,20 +25,21 @@ margin-top: 0;
   margin-top: 850px;
 }
 
-#page5
-{
+#page5{
   margin-top: 850px;
 }
 
-.cell{
+/* .cell{
   /* width: auto;
   height: 75px;
   border: 0.1px solid white;
   color:white;
   opacity: 1;
-  row-gap: 10px; */
+  row-gap: 10px; 
+  }
+  */
 
-}
+
 .landpage {
 height: 850px;
 background:url("/assets/main-bg.jpg");
@@ -63,5 +68,33 @@ background-size: cover;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
-  margin-top: 80px;
+  margin-top: 0px;
+}
+
+.button-pn{
+  background-color: rgb(249, 178, 62);
+  border: none;
+  border-radius: 2px;
+  padding: 8px 70px;
+}
+.bot-con{
+  color: white;
+  margin-top: 720px;
+  text-align: center;
+}
+
+.thegames{
+  height: 850px;
+  background-image: url("/assets/the-games-bg.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover; 
+
+}
+
+.part2{
+  display: flex;
+  height: auto;
+  color: white;
+  border: 1px solid white;
 }
