@@ -3,30 +3,52 @@ body{
 }
 
 #home{
-margin-top: 0;
-}
-#page1
-{
-  
-}
-
-#page2
-{
-  margin-top: 850px;
+  height: 1200px;
+  background:url("/assets/main-bg.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
-#page3
-{
-  margin-top: 850px;
+#thegames{
+  height: 1800px;
+  background-image: url("/assets/the-games-bg.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;  
 }
 
-#page4
-{
-  margin-top: 850px;
+#features{
+  height: 1200px;
+  background-image: url("/assets/features.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
-#page5{
-  margin-top: 850px;
+#requirement{
+  height: 1200px;
+  background-image: url("/assets/requirements.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+#topscores{
+  height: 1200px;
+  background-image: url("/assets/top-score-bg(2).png"),url("/assets/top-score-bg.png");
+  background-position:center,left;
+  background-repeat:no-repeat,repeat;
+  background-size: cover;
+}
+
+#newsletter{
+  height: 1200px;
+  background-image: url("/assets/newsletter.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
+
 }
 
 /* .cell{
@@ -40,13 +62,9 @@ margin-top: 0;
   */
 
 
-.landpage {
-height: 850px;
-background:url("/assets/main-bg.jpg");
-background-position:center;
-background-repeat:no-repeat;
-background-size: cover;
-}
+/* .landpage {
+
+} */
 
 .head-con{
   background: rgba(5, 5, 5, 0.5);
@@ -83,18 +101,59 @@ background-size: cover;
   text-align: center;
 }
 
-.thegames{
-  height: 850px;
-  background-image: url("/assets/the-games-bg.jpg");
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size: cover; 
+/* .thegames{
 
-}
+
+} */
 
 .part2{
   display: flex;
   height: auto;
   color: white;
   border: 1px solid white;
+}
+.feat-page{
+  color:white;
+  border: 1px solid white;
+
+}
+.feat-page-bot{
+  color:white;
+  border: 1px solid white;
+
+}
+
+.req-1{
+  color: white;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.cell{
+  color: white;
+  border: 1px solid white;
+}
+.isi-atas{
+  color: yellow;
+  font-size: 24px;
+}
+
+.score-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid white;
+  float: left;
+  padding-top: 500px;
+}
+
+.score-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: white;
+  border: 1px solid white;
+  float: right;
 }
