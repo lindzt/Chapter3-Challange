@@ -2,6 +2,9 @@ body{
   margin: 0;
 }
 
+.p {
+  border: 0px solid gold;
+}
 #home{
   height: 1200px;
   background:url("/assets/main-bg.jpg");
@@ -51,21 +54,6 @@ body{
 
 }
 
-/* .cell{
-  /* width: auto;
-  height: 75px;
-  border: 0.1px solid white;
-  color:white;
-  opacity: 1;
-  row-gap: 10px; 
-  }
-  */
-
-
-/* .landpage {
-
-} */
-
 .head-con{
   background: rgba(5, 5, 5, 0.5);
   text-align: center;  
@@ -101,37 +89,33 @@ body{
   text-align: center;
 }
 
-/* .thegames{
-
-
-} */
-
 .part2{
   display: flex;
   height: auto;
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .feat-page{
   color:white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 
 }
+
 .feat-page-bot{
   color:white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 
 }
 
 .req-1{
   color: white;
   justify-content: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .cell{
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .isi-atas{
   color: yellow;
@@ -144,7 +128,7 @@ body{
   justify-content: center;
   align-items: center;
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   float: left;
   padding-top: 500px;
 }
@@ -154,6 +138,55 @@ body{
   flex-direction: column;
   justify-content: start;
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   float: right;
+}
+
+
+
+
+
+
+
+
+.img1 {
+  border: 0px solid #f00;
+  position: relative;
+  z-index: 2;
+}
+
+.img2 {
+  border: 0px solid #0f0;
+  position: relative;
+  z-index: 1;
+  bottom: -2px;
+  left: -50px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto 200px 100px;
+}
+
+.gridnews{
+  display: grid;
+  grid-template-columns: 500px auto;
+}
+.griditems{
+  align-items: center;
+}
+.newstext{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.foottext{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.lupa
+{
+display: flex;
+justify-content: space-between;
 }
